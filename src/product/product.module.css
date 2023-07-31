@@ -1,0 +1,104 @@
+.columns{
+padding: 10px;
+
+}
+.card-body{
+    position: relative;
+    border: 2px solid rgb(224, 221, 221);
+    padding: 8px 16px;
+    background-color: white;
+    margin-right: 3px;    
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.card-body-dark{
+    border: 2px solid rgb(224, 221, 221);
+    padding: 8px 16px;
+    background-color: rgb(49, 47, 47);
+    margin-right: 3px;  
+    color : white; 
+}
+
+.card-view{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+} 
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.desc{
+direction: rtl;
+}
+.price{
+    color: rgb(73, 180, 73);
+    font-weight: bold;
+}
+.button{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 190px;
+    left: 450px;
+}
+.visible{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+   
+}
+.display{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.brand{
+    font-weight: bold;
+    font-size: 40px;
+}
+.view{
+    display: flex;
+    direction: rtl;
+    margin-left: auto;
+    margin-right: auto;
+}
+.moshakhasat{
+    padding: 8px 16px;
+    position: relative;
+}
+.gheimat{
+   position: absolute;
+   top: 60%;
+   color: green;
+   font-size: larger;
+   font-weight: bold;
+   left: 26%;
+}
+.add-sabad{
+    position: absolute;
+    top: 70%;
+    background-color: rgb(7, 180, 7);
+    font-size: larger;
+    font-weight: bold;
+    left: 25%;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+}
+.close{
+    height: 40px;
+    justify-content: flex-start;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+}
+.down-page{
+    display: flex;
+   margin-top: 60px;
+    margin-bottom: 20px;
+}

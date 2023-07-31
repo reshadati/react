@@ -1,0 +1,65 @@
+.sabad-kharid{
+    direction: rtl;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sabad{
+    position: relative;
+    border: 2px solid rgb(224, 221, 221);
+    padding: 8px 16px;
+    background-color: white;
+    width: 700px;
+    direction: rtl;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    font-weight: bold;
+}
+.close{
+    height: 40px;
+}
+.price{
+    color: rgb(73, 160, 73);
+    font-weight: bold;
+}
+.title-modal{
+    display: flex;
+    justify-content: space-between;
+   padding: 20px 30px;
+   font-weight: bolder;
+   font-size: large;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.body-modal{
+   text-align: center;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   color: gray;
+}
+.footer{
+    text-align: center;
+    padding: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.button1{
+    background-color: transparent;
+    border : 2px solid rgb(172, 170, 170);
+    border-radius: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(192, 43, 43);
+   
+}
+.button2{
+    background-color: transparent;
+    border : 2px solid rgb(172, 170, 170);
+    border-radius: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}

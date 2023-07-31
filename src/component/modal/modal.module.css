@@ -1,0 +1,33 @@
+.back-modal{ 
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+   justify-content: center;
+   z-index: 1000;
+}
+ .modal{
+   background-color: rgb(196, 192, 192);
+    width: 1000px;
+}
+.back-modal-hazf{ 
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 1000;
+}
+.modal-hazf{
+    background-color: white;
+     width: 400px;
+     height: 250px;
+     border-radius: 20px;
+ }
